@@ -4,7 +4,7 @@ from vector_database_faiss import FaissVectorDatabase
 from config import EMBEDDING_MODEL, EMBEDDING_FILE, FAISS_INDEX_FILE
 from retrieval import Retrieval
 from generation import Generation
-from multimodal_support import MultimodalSupport
+
 
 def main():
     # 1. 資料集準備
